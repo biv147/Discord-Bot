@@ -1,5 +1,10 @@
 # Discord-Bot
-A bot for discord
+A bot for discord  
+
+
+Update 1:  
+-bot can now join voice channel with the function "!join"  
+-bot can now leave voice channel with the function "!leave"  
 
 Initial Creation:  
 -bot is created  
