@@ -75,4 +75,13 @@ async def leave(ctx):
         await ctx.send(f"left {channel}")
 
 
+ #does not work
+@client.command()
+async def shutdown(self,ctx):
+    try:
+        await self.bot.logout()
+    except:
+        print("Environment error")
+        self.bot.clear()       
+        
 client.run(token)
